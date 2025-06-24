@@ -25,6 +25,8 @@ public class PlayMe {
         }catch(Exception e){}});
     }
     public static void side() throws InterruptedException {
+        ImageIcon img = new ImageIcon("anothereye.png");
+        frame.setIconImage(img.getImage());
         frame.remove(button);
         JLabel label = new JLabel("HAHAHAHA", SwingConstants.CENTER);
         label.setFont(new Font("Serif", Font.PLAIN, 120));
