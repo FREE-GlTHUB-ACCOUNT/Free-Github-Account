@@ -4,7 +4,7 @@ public class PlayMe {
     static int a = Toolkit.getDefaultToolkit().getScreenSize().width;
     static int b = Toolkit.getDefaultToolkit().getScreenSize().height;
     static volatile JFrame frame = new JFrame();
-    static JButton button = new JButton(":)");
+    static JButton button = new JButton("☺");
     public static void main(String[] args) throws InterruptedException {
         button.setFocusPainted(false);
         button.setBounds((a-40)/2, (b-20)/2, 40, 20);
@@ -14,7 +14,7 @@ public class PlayMe {
         frame.setResizable(false);
         frame.setSize(400, 200);
         frame.setLocation((a-400)/2, (b-200)/2);
-        frame.setTitle("You can trust me");
+        frame.setTitle("You can trust me...");
         button.addActionListener(f->{try{
             Thread dis = new Thread(new Runnable() {
                 public void run() {
@@ -33,7 +33,7 @@ public class PlayMe {
         frame.add(label);
         frame.getContentPane().revalidate();
         frame.repaint();
-        frame.setTitle("DIE DIE DIE DIE DIE");
+        frame.setTitle("DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE DIE");
         frame.setSize(1200, 600);
         frame.getContentPane().setBackground(Color.red);
         label.setForeground(Color.black);
